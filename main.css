@@ -9,6 +9,10 @@ h2 {
     color: #fff;
 }
 
+.container {
+    width: 70%;
+}
+
 .coluna-card {
     padding-bottom: 40px;
 }
