@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Vida Selvagem</title>
+</head>
+<body>
+    <!-- Carousel -->
+   <div class="container g-0">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/06/01/03/41/landscape-8032549_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>Foto de uma montanha com babuinos</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/06/02/05/34/birds-8034821_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>Foto de muitos passaros</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/06/01/12/06/snow-8033482_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>Foto de um homem subindo uma montanha</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+   </div>
+   <!-- Cards -->
+   <div class="container g-0 container-cards">
+    <h1>Vida Selvagem</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 coluna-card">
+            <article class="card">
+                <header class="card-header">
+                    Desemvolvimento Animal
+                </header>
+                <img src="https://cdn.pixabay.com/photo/2023/06/07/18/14/giraffes-8047856_1280.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Girafas</h4>
+                    <p class="card-text">
+                        Rebanho, Safári.
+                    </p>
+                    <a href="#" class="btn btn-primary">Leia mais</a>
+                </div>
+                <footer class="card-footer">
+                    Postado em <time>13/06/2023 às 12:51:00</time>
+                </footer>
+            </article>
+        </div>        
+        <div class="col-lg-4 col-md-6 col-sm-12 coluna-card">
+            <div class="card text-bg-dark">
+                <div class="card-header">
+                    Grande pica-pau malhado
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2023/05/29/00/23/great-spotted-woodpecker-8024806_1280.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Grande pica-pau malhado</h4>
+                    <h5 class="card-subtitle">Em uma Trepadeira azul</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 coluna-card">
+            <div class="card text-bg-dark">
+                <img src="https://cdn.pixabay.com/photo/2023/05/30/15/43/koala-8028992_1280.jpg" alt="">
+                <div class="card-img-overlay">
+                    <h4 class="card-title">Koala</h4>
+                    <h5 class="card">Marsupial</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam non tempore fugit, officia adipisci! Adipisci ipsa quisquam sequi tempora, officiis perspiciatis, nisi labore distinctio numquam dolore, suscipit odio similique.
+                    </p>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam non tempore fugit, officia adipisci! Adipisci ipsa quisquam sequi tempora, officiis perspiciatis, suscipit odio similique.
+                    </p>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
